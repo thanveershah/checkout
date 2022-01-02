@@ -1,0 +1,48 @@
+$lineColor: #ededed;
+
+.graph-container {
+   padding-top: 20px;
+   margin-bottom: 30px;
+   flex: 1;
+   .container {
+      position: sticky;
+      top: 0;
+   }
+   h2 {
+      margin-bottom: 20px;
+   }
+   .graph-holder {
+      border-bottom: 1px solid $lineColor;
+      border-left: 1px solid $lineColor;
+      height: 300px;
+      display: flex;
+      align-items: flex-end;
+      padding-left: 30px;
+      background-color: #e5e5f7;
+      opacity: 0.8;
+      background-image: linear-gradient($lineColor 1px, transparent 1px),
+         linear-gradient(to right, $lineColor 1px, #ffffff 1px);
+      background-size: 20px 20px;
+   }
+   .bar {
+      background-color: #ff6384;
+      width: 80px;
+      height: 10%;
+      margin-right: 30px;
+      position: relative;
+      &:nth-child(even) {
+         background-color: #4ac0c0;
+      }
+
+      .description {
+         position: absolute;
+         bottom: -25px;
+         color: rgb(85, 85, 85);
+         font-size: 14px;
+         @media (max-width: 575px) {
+            width: max-content;
+            font-size: 12px;
+         }
+      }
+   }
+}

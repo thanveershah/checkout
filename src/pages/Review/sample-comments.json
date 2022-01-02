@@ -1,0 +1,12 @@
+[
+   { "name": "John", "email": "john@gmail.com", "comment": "The Product looks really good", "rating": "5" },
+   { "name": "John2", "email": "john2@gmail.com", "comment": "The Product looks really good", "rating": "2" },
+   { "name": "John3", "email": "john3@gmail.com", "comment": "The Product looks really good", "rating": "4" },
+   { "name": "John4", "email": "john4@gmail.com", "comment": "The Product looks really good", "rating": "1" },
+   {
+      "name": "John5",
+      "email": "john5@gmail.com",
+      "comment": "The Product looks really good",
+      "rating": "3"
+   }
+]

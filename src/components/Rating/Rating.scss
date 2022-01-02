@@ -1,0 +1,20 @@
+$rateColor: orange;
+
+.rating-container {
+   margin-bottom: 10px;
+   .rating-label {
+      display: block;
+      margin-bottom: 0;
+   }
+   .fa-star {
+      margin: 5px;
+      font-size: 30px;
+      cursor: pointer;
+      &:hover {
+         color: $rateColor;
+      }
+      &.checked {
+         color: $rateColor;
+      }
+   }
+}
