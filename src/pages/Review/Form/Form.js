@@ -14,7 +14,7 @@ const Form = forwardRef(({ handleChange, submitForm, fields, handleRating, selec
    }, [fields, selectedRating]);
 
    return (
-      <form className="input-fields" noValidate ref={ref}>
+      <form className="input-fields" noValidate ref={ref} autoComplete='off'>
          <h2>Please Leave A Review</h2>
          <label htmlFor="name">
             <input

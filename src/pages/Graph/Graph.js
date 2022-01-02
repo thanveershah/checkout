@@ -10,7 +10,7 @@ const products = [
 
 const Graph = () => {
    return (
-      <section className="graph-container">
+      <aside className="graph-container">
          <div className="container">
             <h2>Current Trends</h2>
             <div className="graph-holder">
@@ -21,7 +21,7 @@ const Graph = () => {
                ))}
             </div>
          </div>
-      </section>
+      </aside>
    );
 };
 

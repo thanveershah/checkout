@@ -1,3 +1,6 @@
+$darkColor: #042431;
+$lightColor: #1a4150;
+
 @mixin dark-theme {
    background-color: $darkColor;
    p,
@@ -11,8 +14,11 @@
       color: white !important;
    }
 
-   .fa-star.checked {
-      color: orange !important;
+   .fa-star {
+      &:hover,
+      &.checked {
+         color: orange !important;
+      }
    }
 
    form,

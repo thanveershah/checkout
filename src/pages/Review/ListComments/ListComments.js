@@ -5,7 +5,7 @@ const ListComments = ({ allComments }) => {
    return (
       <section className="list-comments-container">
          {allComments.map((data, index) => (
-            <div className="list" key={index}>
+            <article className="list" key={index}>
                <div>
                   <img
                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
@@ -24,7 +24,7 @@ const ListComments = ({ allComments }) => {
                   </div>
                   <p className="description">{data.comment}</p>
                </div>
-            </div>
+            </article>
          ))}
       </section>
    );
