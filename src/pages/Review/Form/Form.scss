@@ -35,7 +35,6 @@ $borderRadius: 4px;
          position: absolute;
          left: 20px;
          top: 25px;
-         background-color: white;
          transition: all 0.2s ease-in-out;
          color: rgb(159, 159, 159);
       }
@@ -45,8 +44,6 @@ $borderRadius: 4px;
    textarea {
       padding: 20px;
       border: $border;
-      // border: 0;
-      // box-shadow: 0 4px 6px rgb(225, 225, 225);
       border-radius: $borderRadius;
       font-size: 20px;
       width: 100%;

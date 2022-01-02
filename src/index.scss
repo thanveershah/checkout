@@ -9,6 +9,7 @@
 }
 
 body {
+   scroll-behavior: smooth;
    &.dark {
       @include dark-theme;
    }

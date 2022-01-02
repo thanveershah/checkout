@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Form from './Form/Form';
 import ListComments from './ListComments/ListComments';
 import './Review.scss';
@@ -15,6 +15,10 @@ const Review = () => {
    const [allComments, setAllComments] = useState(sampleComments);
    const [selectedRating, setSelectedRating] = useState('');
    const [fields, setFields] = useState(initialValues);
+
+   useEffect(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+   }, [allComments]);
 
    const handleChange = event => {
       const { name, value } = event.target;
