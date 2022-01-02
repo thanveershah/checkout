@@ -1,3 +1,8 @@
+![alt text](https://github.com/thanveershah/checkout/blob/main/public/assets/WhatsApp%20Image%202022-01-02%20at%209.48.24%20PM.jpeg)
+
+![alt text](https://github.com/thanveershah/checkout/blob/main/public/assets/WhatsApp%20Image%202022-01-02%20at%209.48.32%20PM.jpeg)
+
+
 # About the project
 
 - A Review form along with a graph of all the trending products.
