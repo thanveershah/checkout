@@ -34,3 +34,4 @@
 - Animation on hover on the graph or even use Chart.js for better interaction
 - Animation over the rating star on hover
 - Custom Form Validation for each fields
+- Use Styled Components or CSS/SASS Modules instead of plain sass
