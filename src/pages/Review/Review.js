@@ -49,17 +49,15 @@ const Review = () => {
 
    return (
       <section className="review-container">
-         <div className="container">
-            <Form
-               handleChange={handleChange}
-               fields={fields}
-               submitForm={submitForm}
-               handleRating={handleRating}
-               selectedRating={selectedRating}
-               ref={formRef}
-            />
-            <ListComments allComments={allComments} />
-         </div>
+         <Form
+            handleChange={handleChange}
+            fields={fields}
+            submitForm={submitForm}
+            handleRating={handleRating}
+            selectedRating={selectedRating}
+            ref={formRef}
+         />
+         <ListComments allComments={allComments} />
       </section>
    );
 };

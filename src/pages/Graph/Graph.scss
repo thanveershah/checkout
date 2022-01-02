@@ -1,3 +1,5 @@
+@import '../../styles/mixins';
+
 $lineColor: #ededed;
 
 .graph-container {
@@ -7,6 +9,9 @@ $lineColor: #ededed;
    .container {
       position: sticky;
       top: 0;
+      @include mobile {
+         padding: 0;
+      }
    }
    h2 {
       margin-bottom: 20px;
@@ -24,6 +29,7 @@ $lineColor: #ededed;
          linear-gradient(to right, $lineColor 1px, #ffffff 1px);
       background-size: 20px 20px;
    }
+
    .bar {
       background-color: #ff6384;
       width: 80px;
@@ -39,7 +45,7 @@ $lineColor: #ededed;
          bottom: -25px;
          color: rgb(85, 85, 85);
          font-size: 14px;
-         @media (max-width: 575px) {
+         @include mobile {
             width: max-content;
             font-size: 12px;
          }

@@ -65,8 +65,10 @@ const Rating = ({ label = true, handleRating, rating, selectedRating }) => {
             .fill('')
             .map((_, index) => (
                <span
+                  tabIndex={rating ? '-1' : '4'}
                   key={index}
                   ref={val => (spanRef.current[index] = val)}
+                  style={{ pointerEvents: rating ? 'none' : 'all' }}
                   className="fa fa-star"
                   data-rate={index + 1}
                   onClick={getCurrentRating}

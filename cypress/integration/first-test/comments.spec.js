@@ -1,8 +1,16 @@
 /// <reference types="cypress" />
 
 describe('Initial Test', () => {
-   it('Fill the form', () => {
+   it('Toggle Theme', () => {
       cy.visit('/');
+
+      cy.wait(1000);
+      cy.get('header button').click();
+      cy.wait(1000);
+      cy.get('header button').click();
+   });
+
+   it('Fill the form', () => {
       cy.wait(1000);
       cy.get('form').scrollIntoView();
       cy.get('input[name=name]').type('Thanveer Shah');
